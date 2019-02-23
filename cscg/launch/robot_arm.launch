@@ -1,0 +1,5 @@
+<launch>
+    <node name = "robot_arm" pkg = "cscg" type = "robot_arm_node" required = "true" output = "screen">
+    <param name = "serial_port" value = "/dev/ttyUSB0" />
+    </node>>
+</launch>
